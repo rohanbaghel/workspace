@@ -1,0 +1,5 @@
+package com.capgemini.testing.test;
+
+public class StringUtilityTest {
+
+}

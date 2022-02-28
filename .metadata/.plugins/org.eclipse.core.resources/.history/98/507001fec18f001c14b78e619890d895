@@ -1,0 +1,13 @@
+package com.capgemini.generic.model;
+
+import java.util.TreeSet;
+
+public class TreeSetDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		TreeSetDemo<Integer> tree= new TreeSetDemo<Integer>();
+	}
+
+}

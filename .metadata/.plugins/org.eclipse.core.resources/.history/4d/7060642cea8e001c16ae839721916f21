@@ -1,0 +1,9 @@
+package com.capgemini.exception;
+
+public class BankingExceptionDemo {
+
+	public BankingExceptionDemo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

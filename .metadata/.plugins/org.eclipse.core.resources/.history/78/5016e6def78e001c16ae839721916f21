@@ -1,0 +1,17 @@
+package com.capgemini.generic.model;
+
+public class Generic {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Demo<Integer> intDemo = new Demo<Integer>();
+		intDemo.setData(10);
+		System.out.println("Integer Demo Values: "+intDemo.getData());
+		
+		Demo<Float> floatDemo = new Demo<Float>();
+		floatDemo.setData(10.1f);
+		System.out.println("Integer Demo Values: "+floatDemo.getData());
+	}
+
+}

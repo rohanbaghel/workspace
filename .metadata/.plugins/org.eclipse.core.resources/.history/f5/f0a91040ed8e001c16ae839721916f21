@@ -1,0 +1,29 @@
+package com.capgemini.exception;
+
+import java.util.Scanner;
+
+public class BankingExceptionDemo {
+
+	private static int withdrawalLimit;
+	private static int balance;
+	public static void main(String[] args){
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Welcome to Banking application.");
+		System.out.println("Enter customer name:");
+		String name =sc.next();
+		System.out.println("Enter the withdrawal Limit and Balance :");
+		withdrawalLimit= sc.nextInt();
+		for(;;){
+			System.out.println("enter the amount of withdrawal (-1 to exit):");
+			int amount = sc.nextInt();
+			if(amount==-1){
+				System.out.println("Thank you..!!");
+				System.exit(0);
+			}
+			withdrawalAmount(amount);
+		}
+	}
+	private static void withdrawalAmount(int amount)throws InsufficientFundException,WithdrawalExceedingException{
+		if(amount)
+	}
+}

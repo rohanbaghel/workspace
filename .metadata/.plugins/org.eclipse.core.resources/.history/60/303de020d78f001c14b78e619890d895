@@ -1,0 +1,23 @@
+package com.capgemini.generic.model;
+
+import java.util.HashMap;
+
+public class HashMapDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		HashMap<Integer,String> hashMap=new HashMap<Integer,String>();
+		
+		hashMap.put(1, "Django");
+		hashMap.put(2, "Candy");
+		hashMap.put(3, "Broomhilda");
+		hashMap.put(4, "Schrutz");
+		hashMap.put(5,"Stephen");
+		hashMap.put(6, null);
+		hashMap.put(null, "Harpon");
+		
+		System.out.println(hashMap);
+	}
+
+}

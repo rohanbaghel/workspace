@@ -1,0 +1,10 @@
+package com.capgemini.fileio.driver;
+
+public class FileReaderWriterDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

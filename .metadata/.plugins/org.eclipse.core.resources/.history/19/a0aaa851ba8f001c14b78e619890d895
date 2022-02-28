@@ -1,0 +1,22 @@
+package com.capgemini.generic.model;
+
+import java.util.HashSet;
+
+public class HashSetDemo {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		HashSet<String> hs= new HashSet<String>();
+		hs.add("Rohan");
+		hs.add("Local");
+		hs.add("Broad");
+		hs.add("Rohan");
+		hs.add("Red");
+		hs.add("Blast");
+		hs.add(null);
+		
+		System.out.println(hs);
+		
+	}
+}

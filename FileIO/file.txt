@@ -1,0 +1,2 @@
+This is the first program for file IO .
+Welcome to file programming

@@ -1,0 +1,7 @@
+package com.capgemini.generic.model;
+
+import java.util.Comparator;
+
+public class EmployeeSortByNameComparator implements Comparator<T> {
+
+}

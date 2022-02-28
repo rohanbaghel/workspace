@@ -1,0 +1,28 @@
+package com.capgemini.fileio.model;
+
+import java.io.EOFException;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.ObjectInputStream;
+
+public class DesearlizationDemo {
+
+	public static void main(String[] args) throws IOException, ClassNotFoundException {
+		// TODO Auto-generated method stub
+
+		FileInputStream fIn= new FileInputStream("employees.txt");
+		ObjectInputStream inputStream = new ObjectInputStream(fIn);
+		
+		while(true){
+			try{
+				Employee e = (Employee) inputStream.readObject();
+				System.out.println(e);
+			}catch(EOFException e){
+				break;
+			}
+		}
+		inputStream.close();
+		fIn.close();
+	}
+
+}

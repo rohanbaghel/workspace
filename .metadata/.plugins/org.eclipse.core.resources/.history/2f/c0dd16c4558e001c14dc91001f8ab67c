@@ -1,0 +1,19 @@
+package com.capgemini.entity;
+
+import java.util.InputMismatchException;
+
+public class Exceptions {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		try{
+			Scanner sc= new Scanner(System.in);
+			
+			
+		}catch(InputMismatchException|NullPointerException|ArithmeticException ex){
+			System.out.println("Exception type: "+ex);
+		}
+	}
+
+}

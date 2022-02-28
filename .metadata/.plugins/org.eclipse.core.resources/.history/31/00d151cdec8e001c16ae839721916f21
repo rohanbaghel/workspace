@@ -1,0 +1,30 @@
+package com.capgemini.exception;
+
+public class WithdrawalLimitException extends Exception {
+
+	public WithdrawalLimitException() {
+		// TODO Auto-generated constructor stub
+	}
+
+	public WithdrawalLimitException(String message) {
+		super(message);
+		// TODO Auto-generated constructor stub
+	}
+
+	public WithdrawalLimitException(Throwable cause) {
+		super(cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public WithdrawalLimitException(String message, Throwable cause) {
+		super(message, cause);
+		// TODO Auto-generated constructor stub
+	}
+
+	public WithdrawalLimitException(String message, Throwable cause,
+			boolean enableSuppression, boolean writableStackTrace) {
+		super(message, cause, enableSuppression, writableStackTrace);
+		// TODO Auto-generated constructor stub
+	}
+
+}

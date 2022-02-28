@@ -1,0 +1,5 @@
+package com.capgemini.testing.model;
+
+public class Calculator {
+
+}
